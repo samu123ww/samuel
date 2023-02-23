@@ -1,0 +1,51 @@
+*{
+margin:0;
+padding:0;
+-webkit-box-sizing: norder-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.social{
+position:fixed;
+left:0;
+top:200px;
+z-index:2000;
+}
+
+.social ul{
+list-style:none;
+
+}
+.social ul li a{
+display: inline-block;
+color:white;
+background: black;
+padding: 10px 15px;
+text-decoration:none;
+-webkit-transition: all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+}
+
+.social ul li .f{
+padding: 4px 8px;
+background:#3b5998;
+}
+.social ul li .i{
+padding: 4px 8px;
+background: pink;
+}
+.social ul li .t{
+padding: 4px 8px;
+background: blue;
+}
+.social ul li .w{
+padding: 4px 8px;
+background: green;
+}
+
+.social ul li a:hover{
+padding:10px 30px;
+background:black;
+}
